@@ -69,5 +69,24 @@ Fifth day of class:=
              document.write(multiply(4));
              </script>
              to get output as 64
-             Note:= begore return we cam write any content  but after return intitated if we wr                write anything we dont get answer from the browser because it dont take iut as c                 content
+             Note:= before return we can write any content  but after return intitated if we wr                write anything we dont get answer from the browser because it dont take iut as c                 content
             
+
+Sixth day of class:=
+ 6. Variables:==(var)
+   They are two types:-
+    1. Local Variables.
+    2. Global Variables.
+    
+    1.Local Variables:=
+       <script>
+        function add(){
+         var x=20;
+         documnet.write("we are adding variables"+x);
+         }
+         add();
+       </script>
+       in the above script where add(); is called below the </script> for getting output is c          called as  Local variables.
+       
+       
+     2.Global Variables:=
