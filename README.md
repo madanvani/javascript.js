@@ -90,3 +90,24 @@ Sixth day of class:=
        
        
      2.Global Variables:=
+           in this we have to create global variable firt and later we have to call function to            it and also we can write below the function also as add();
+           document.write(y)
+          
+         <script> 
+          var y=50;
+          function add(){
+          document.write(y)
+         }
+         add();
+         document.write(y)
+         </script>
+         
+ 7. Data types:=
+     There are five types of Datatypes:=
+       They are:=
+         1. Number DataType
+         2. String Datatype
+         3. Boolean Datatype
+         4. Regular Datatype
+         5. Array
+           
