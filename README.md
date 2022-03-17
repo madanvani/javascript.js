@@ -21,7 +21,14 @@ Second Day of class:==
  
 Third day of class:==
  3. Three ways/methods to add content of javascript in Html 
-    A.Document.write
-    B.Alert := (it is replaced in document.write as alert("hai hello world") or window.alert("hai         world")
+   A.Document.file
+   B.Alert (alert box)
+   C.InnerHTML  (Formvalidation)
+    A.Document.write ("Testing Purpose")
+    B.Alert ("Alert Box") := (it is replaced in document.write as alert("hai hello world") or             window.alert("hai world")
       in this you can see a popup window above the page by displaying what we are add in that               content 
-    C.
+    C.InnerHTML:= in this we are writing                                                                      <script  type="text/javascript">document.getElementBYId("demo").innerHTML="hai                    hello world";></script>
+            for this we have to write <h1 id="demo"></h1>  above the script  
+
+Fourth day of class:==
+ 4.
