@@ -24,11 +24,50 @@ Third day of class:==
    A.Document.file
    B.Alert (alert box)
    C.InnerHTML  (Formvalidation)
+   
     A.Document.write ("Testing Purpose")
+    
     B.Alert ("Alert Box") := (it is replaced in document.write as alert("hai hello world") or             window.alert("hai world")
       in this you can see a popup window above the page by displaying what we are add in that               content 
+      
     C.InnerHTML:= in this we are writing                                                                      <script  type="text/javascript">document.getElementBYId("demo").innerHTML="hai                    hello world";></script>
             for this we have to write <h1 id="demo"></h1>  above the script  
 
+
 Fourth day of class:==
- 4.
+ 4. Functions in javascript
+     in <script>
+     function hello(){
+    documnet.write("hai madan");
+              or
+    alert("hello world");
+              or
+    document.getElementByID("demo").innerHTML="hai world"
+    </script>
+    if user want to exclude the javascript then you call it as where ever we want as 
+    <button onclick="hello()" >clickhere</button>
+    <input type="button" value="Clickhere" onclick="hello()" /> it is for calling the hello           world by clicking on clickhere  in button
+    
+Fifth day of class:=
+ 5. In functons we have 2 more proprties.
+      Perameters:= in this we are learning about parameters
+       we are calling multiplication by using functions
+        function multiply(number){
+          alert("number*number*number");
+           }
+        <input type="button" value="clickhere" onclick="multipy(2)" /> 
+        
+        in this we are calling return instead of  onclick 
+         
+         for thius we are writing 2scripts as 
+         1.<scripts> 
+           function multiply(number){
+           return number*number*number
+           }
+            </scripts>
+         2. <script>
+             document.write(multiply(4));
+             </script>
+             to get output as 64
+             Note:= begore return we cam write any content  but after return intitated if we wr                write anything we dont get answer from the browser because it dont take iut as c                 content
+            
